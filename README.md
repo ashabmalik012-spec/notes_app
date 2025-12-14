@@ -1,16 +1,23 @@
-# notes_app
+# Notes App
 
-A new Flutter project.
+A simple and fully functional **Notes App** built using **Flutter**.
 
-## Getting Started
+## Features
+- Add, edit, and delete notes
+- Offline storage using **Drift (SQLite)**
+- Save user preferences using **Shared Preferences**
+- Search notes
+- Clean and user-friendly UI
 
-This project is a starting point for a Flutter application.
+## Packages Used
+- [Drift](https://pub.dev/packages/drift) – for local database management (SQLite)
+- [Shared Preferences](https://pub.dev/packages/shared_preferences) – to store user settings locally
+- [Flutter](https://flutter.dev/) – for building the mobile app
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+- Flutter SDK installed
+- An editor like **Android Studio**, **VS Code**, or **IntelliJ**
+
+
